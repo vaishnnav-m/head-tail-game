@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="h-screen bg-gradient-to-br from-slate-900 via-purple-900 to bg-slate-900 flex flex-col gap-14 items-center p-20 ">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to bg-slate-900 flex flex-col gap-14 items-center p-20 ">
       <div className="flex flex-col items-center gap-9">
         <div className="size-20 animate-bounce rounded-full border-yellow-600 border-4 bg-gradient-to-br from-yellow-400 to-yellow-500 text-yellow-900 flex items-center justify-center shadow-inner">
           <Bitcoin className="size-10" />
